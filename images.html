@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffffff" />
+  <title>Images | 7camels</title>
+  <link rel="icon" type="image/png" href="camel-logo.png" />
+  <link rel="stylesheet" href="site.css" />
+</head>
+<body class="images-page">
+  <main class="page-shell" id="top">
+    <p>
+      <a class="site-home" href="index.html">
+        <img src="camel-logo.png" alt="7camels logo" />
+      </a>
+    </p>
+
+    <h1>Images</h1>
+
+    <section class="gallery" aria-label="Photo gallery">
+      <figure>
+        <a class="thumb-link" href="#aidan-modal">
+          <span class="image-frame">
+            <img src="aidan.jpg" alt="Aidan standing on a beach at sunset" />
+            <span class="image-title">aidan in the sunset</span>
+          </span>
+        </a>
+        <p class="page-link"><a href="aidan.html">more</a></p>
+      </figure>
+
+      <figure>
+        <a class="thumb-link" href="#sean-modal">
+          <span class="image-frame">
+            <img src="sean.jpg" alt="Sean standing with arms outstretched against a wide sky" />
+            <span class="image-title">pleading with the sky</span>
+          </span>
+        </a>
+        <p class="page-link"><a href="sean.html">more</a></p>
+      </figure>
+    </section>
+  </main>
+
+  <section class="lightbox" id="aidan-modal" aria-label="aidan in the sunset enlarged view">
+    <a class="lightbox-backdrop" href="#top" aria-label="Close enlarged image"></a>
+    <div class="lightbox-panel">
+      <a class="close-link" href="#top">close</a>
+      <figure class="image-frame lightbox-frame">
+        <img src="aidan.jpg" alt="Aidan standing on a beach at sunset" />
+        <figcaption class="image-title">aidan in the sunset</figcaption>
+      </figure>
+      <p>i chose this image because the composition felt the strongest and most natural. the subject stands out against the sunset, and the reflection on the water helps guide the viewer&rsquo;s eye through the image. i was thinking about contrast, negative space, and depth when taking it. the 5 by 7 crop kept the portrait feel of the image, and adjusting the tonal range helped balance the darker foreground with the bright sunset in the background.</p>
+      <div class="lightbox-actions">
+        <a href="aidan.html">more</a>
+        <a href="#top">back to gallery</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="lightbox" id="sean-modal" aria-label="pleading with the sky enlarged view">
+    <a class="lightbox-backdrop" href="#top" aria-label="Close enlarged image"></a>
+    <div class="lightbox-panel">
+      <a class="close-link" href="#top">close</a>
+      <figure class="image-frame lightbox-frame">
+        <img src="sean.jpg" alt="Sean standing with arms outstretched against a wide sky" />
+        <figcaption class="image-title">pleading with the sky</figcaption>
+      </figure>
+      <p>i chose this image because it felt the strongest in terms of composition and framing, especially in a wide format. the outstretched arms create a strong horizontal line across the frame, and the large amount of open sky helps emphasize the figure&rsquo;s scale and isolation within the landscape. i was thinking about balance, symmetry, and negative space when taking it. cropping it to 1920 by 1080 strengthened the horizontal composition and made the image feel more intentional. i also adjusted the tonal range to deepen the contrast while still preserving detail in the figure and background.</p>
+      <div class="lightbox-actions">
+        <a href="sean.html">more</a>
+        <a href="#top">back to gallery</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
